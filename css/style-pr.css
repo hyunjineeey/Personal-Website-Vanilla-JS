@@ -1,0 +1,737 @@
+body {
+    background-color: #F2F4F9;
+    padding-top: 70px;
+}
+
+.intro {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+
+.navbar {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+}
+
+.about {
+    /* margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%; */
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    max-width: 1000px;
+    flex-direction: column;
+}
+
+.stevejobs {
+    color: #f2f2f2;
+    background: #ff4a4a;
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 700;
+    margin: 0 5px 24px;
+    text-align: center;
+    /*float: left;*/
+    padding: 10px;
+    /*margin: 0 5px 24px;*/
+    font-family: 'Libre Baskerville', serif;
+}
+
+.jobs-name {
+    color: #D7DFD3;
+    font-size: 25px;
+    text-decoration: none;
+    float: right;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 4;
+}
+/*.about-hr {*/
+/*    border: 3px solid #21327C;*/
+/*    border-radius: 5px;*/
+/*    margin-left: 0;*/
+/*    margin-top: 0px;*/
+/*    margin-bottom: 25px;*/
+/*}*/
+
+.faq-text {
+    font-size: 14px;
+}
+
+.about-title {
+    font-size: 1em;
+    color: #134db6;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: "avenir-heavy";
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 1.3em;
+    /*color: #134db6;*/
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: "avenir-heavy";
+}
+
+/*.korean_font {*/
+/*    font-family: 'Yeon Sung', cursive;*/
+/*    letter-spacing: 5px;*/
+/*    font-size: 33px;*/
+/*    margin-bottom: -10px;*/
+/*}*/
+
+.korean_font {
+    font-family: 'Stylish', sans-serif;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-bottom: -10px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project_btn {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/* #hyunjin {
+    font: bold 40px Sans-Serif;
+    padding: 20px 0;
+
+    color: #444;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+
+    -webkit-transform: skew(7deg,-7deg);
+   -moz-transform: skew(7deg,-7deg);
+   transform: skew(7deg,-7deg);
+} */
+
+#hyunjin {
+    /* text-transform: uppercase; */
+	background: linear-gradient(to right, #30CFD0 28%, #330867 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+}
+
+.main_name {
+    letter-spacing: 3px;
+}
+
+.hide {
+    display: none;
+}
+
+.hide_projects {
+    display: none;
+}
+
+.translate-to-kr {
+    font-family: 'Stylish', sans-serif;
+    font-size: 34px;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+/**
+ * Circle Styles
+ */
+
+.circle-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+    line-height: 90px;
+    /*text-align: center;*/
+    /*margin-right: 30px;*/
+}
+
+.entj-text {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+.entj-e {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 7px;
+}
+
+.entj-n {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 17px;
+}
+
+.entj-t {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 17px;
+}
+
+.entj-j {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.circle.e {
+    text-align: center;
+}
+.e {
+    text-align: center;
+    background: #E15943;
+    margin-left: 8px;
+}
+
+.n {
+    background: #53B9EC;
+}
+
+.t {
+    background: #1C4474;
+}
+
+.j {
+    background: #DDD342;
+}
+
+.image {
+    text-align: center;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 600px) {
+    .profile-button {
+        width: 280px;
+    }
+    .interests-category {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        width: 0px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .about-hr {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .circle-container {
+        width: 240px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .interests {
+        width: 250px;
+    }
+    .entj-n {
+        margin-right: 0px;
+    }
+    .about-title {
+        text-align: center;
+    }
+    .tools {
+        margin-bottom: 25px;
+    }
+    .slideshow-container {
+        font-size: 14px;
+    }
+    .commanders {
+        text-align: justify;
+        font-size: 9px;
+    }
+    /*.table-striped {*/
+    /*    font-size: 13px;*/
+    /*}*/
+}
+.text-center {
+    font-size: 15px;
+    margin-top: -35px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+.intro .info_container .info .info_text {
+    font-size: 12px;
+}
+
+/* main intro */
+@media only screen and (max-width: 402px) {
+    .intro .info_container .eng.info .info_text {
+        font-size: 11px;
+    }
+    .intro .info_container .eng .hyunjin {
+        font-size: 28px;
+    }
+}
+
+/* main intro */
+@media only screen and (max-width: 368px) {
+    .intro .info_container .eng.info .info_text {
+        font-size: 10px;
+    }
+    .intro .info_container .eng .hyunjin {
+        font-size: 25px;
+    }
+}
+
+/* main intro */
+@media only screen and (max-width: 336px) {
+    .intro .info_container .eng.info .info_text {
+        font-size: 9px;
+    }
+    .intro .info_container .eng .hyunjin {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    .survey_title_eng {
+        font-size: 19px;
+    }
+    .survey_title_kr {
+        font-size: 19px;
+    }
+    .card .faq-btn {
+        font-size: 14px;
+    }
+    .card .eng {
+        font-size: 14px;
+    }
+
+    .card .kr {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .survey_title_eng {
+        font-size: 17px;
+    }
+    /*.survey_title_kr {*/
+    /*    font-size: 13px;*/
+    /*}*/
+    .card .faq-btn {
+        font-size: 13px;
+    }
+
+    .card .eng {
+        font-size: 14px;
+    }
+
+    .card .kr {
+        font-size: 14px;
+    }
+
+    .fun-qa .row .col .collapse .fun-qa-kr {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .survey-font {
+        font-size: 18px;
+    }
+}
+
+.survey-box .survey-font {
+    font-size: 18px;
+}
+
+
+.social-media-top {
+    margin-top: 22px;
+}
+
+.social-media-bottom {
+    margin-top: 15px;
+}
+
+.info p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+/* .navbar-right {
+    float: right;
+    margin-right: -15px;
+} */
+
+
+.interests {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.interests-category {
+    font-size: 60px;
+    letter-spacing: 20px;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.category-projects {
+    font-weight: bold;
+}
+
+.projects-box {
+    margin: 0 auto;
+    /*padding-top: 15px;*/
+    padding-left: 8%;
+    padding-right: 8%;
+    max-width: 1200px;
+    flex-direction: column;
+}
+
+/* .container_projects {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects_each {
+    float: left;
+    display: inline-block;
+    flex-direction: column;
+    width: 300px;
+} */
+
+.hr_color {
+    border-radius: 10rem;
+    border: 3px solid #f06000;
+    max-width: 60px;
+    margin: 0px;
+}
+
+.project_each {
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.footer-projects {
+    margin: 0 auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    max-width: 1200px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions {
+    margin-top: 10px;
+}
+
+.language {
+    text-align: right;
+}
+
+.top-title {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.questions-box {
+    margin: 0 auto;
+    /*padding-top: 15px;*/
+    padding-left: 8%;
+    padding-right: 8%;
+    max-width: 1000px;
+}
+
+.fun-qa {
+    margin-top: 25px;
+}
+
+.fun-qa-kr {
+    font-size: 15px;
+}
+
+/* .nav-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+} */
+
+.survey-box {
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-left: 8%;
+    padding-right: 8%;
+    max-width: 1000px;
+}
+
+footer {
+    margin-top: 35px;
+}
+
+.footer {
+    margin: 0 auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    max-width: 1000px;
+    /* flex-direction: column; */
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-sns {
+    font-size: 15px;
+    margin-left: 5px;
+    text-decoration : none; 
+    color : #000;
+}
+
+.foot-sns:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.console-head {
+    background-color: #C4C4C4;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: -20px;
+    width: 100%;
+    height: 38px;
+}
+
+.console {
+    background-color: #342F2F;
+    font-size: 12px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #E7DFDF;
+}
+
+.answer {
+    margin-left: 16px;
+}
+
+.ans-work {
+    margin-left: 45px;
+}
+
+.ans {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+li {
+    font-size: 15px;
+}
+
+.work-time {
+    background-color: #D9D5D5;
+    font-size: 8px;
+    margin-left: 3px;
+    border-radius: 10px;
+    font-weight: 300;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.from-sec {
+    margin-top: 50px;
+}
+
+.faq-btn {
+    color: #000;
+}
+
+.sub-text {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.card-body {
+   padding-left: 30px; 
+   padding-right: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button-margin {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.project-box {
+    padding-bottom: 25px;
+}
+
+.project-btn {
+    font-size: 10px;
+}
+
+.sub-section {
+    margin-bottom: 30px;
+}
+
+.sub-section-skills {
+    margin-bottom: 25px;
+}
+
+.margin-bottom {
+    margin-bottom: 6px;
+}
+
+.flag {
+    font-size: 15px;
+    float: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+/* .margin-left {
+    margin-left: 20px;
+} */
+
+.text-decoration {
+    text-decoration: none;
+}
+
+/* slides */
+
+/** {box-sizing: border-box}*/
+/*body {font-family: Verdana, sans-serif; margin:0}*/
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    /*background: #f1f1f1f1;*/
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 10px 40px 10px 40px;
+    text-align: justify;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    /*background-color: rgba(0,0,0,0.8);*/
+    /*color: white;*/
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    /*padding: 10px;*/
+    /*background: #ddd;*/
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active_dot, .dot:hover {
+    background-color: grey;
+}
+
+.commanders {
+    text-align: justify;
+    font-size: 15px;
+}

@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Hyunjin Jae 제현진</title>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap for navbar -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap for styling-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Footer sns icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Js -->
+    <script src="js/translate.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand main_name" href="index.html">Hyunjin Jae</a>
+        <div style="cursor: pointer">
+          <span id="translateToKr" class="flag">🇰🇷 </span>
+          <span id="translateToEng" class="flag">🇺🇸</span>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div
+            style="float: right; text-align: right"
+            class="eng navbar-nav nav-right ml-auto"
+          >
+            <a class="nav-item nav-link active" href="about.html">About</a>
+            <a class="nav-item nav-link" href="projects.html">Projects</a>
+            <a class="nav-item nav-link" href="blog.html">Blog</a>
+            <a class="nav-item nav-link" href="faq.html">FAQ</a>
+            <a class="nav-item nav-link" href="/resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </div>
+          <div
+            style="float: right; text-align: right"
+            class="kr hide navbar-nav nav-right ml-auto"
+          >
+            <a class="nav-item nav-link active" href="about.html"
+              >나에 관하여</a
+            >
+            <a class="nav-item nav-link" href="projects.html">프로젝트</a>
+            <a class="nav-item nav-link" href="blog.html">블로그</a>
+            <a class="nav-item nav-link" href="faq.html">질문모음</a>
+            <a class="nav-item nav-link" href="/resume.pdf" target="_blank"
+              >이력서</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="about">
+      <!-- Profile -->
+      <div class="about-profile">
+        <h4 class="eng about-title" style="margin-top: 15px">Profile</h4>
+        <h4 class="kr hide about-title" style="margin-top: 15px">프로필</h4>
+
+        <div class="circle-container">
+          <div class="entj-e">
+            <div class="circle e">E</div>
+            <p class="eng entj-text">Extraverted</p>
+            <p class="kr hide entj-text">외향성의</p>
+          </div>
+          <div class="entj-n">
+            <div class="circle n">N</div>
+            <p class="eng entj-text">Ntuitive</p>
+            <p class="kr hide entj-text">직관적인</p>
+          </div>
+          <div class="entj-t">
+            <div class="circle t">T</div>
+            <p class="eng entj-text">Thinking</p>
+            <p class="kr hide entj-text">사고적인</p>
+          </div>
+          <div class="entj-j">
+            <div class="circle j">J</div>
+            <p class="eng entj-text">Judging</p>
+            <p class="kr hide entj-text">판단적인</p>
+          </div>
+        </div>
+
+        <p class="eng commanders">
+          <i class="fa fa-quote-left" aria-hidden="true"></i> Commanders are
+          natural-born leaders. People with this personality type embody the
+          gifts of charisma and confidence, and project authority in a way that
+          draws crowds together behind a common goal. However, Commanders are
+          also characterized by an often ruthless level of rationality, using
+          their drive, determination and sharp minds to achieve whatever end
+          they’ve set for themselves. Perhaps it is best that they make up only
+          three percent of the population, lest they overwhelm the more timid
+          and sensitive personality types that make up much of the rest of the
+          world – but we have Commanders to thank for many of the businesses and
+          institutions we take for granted every day.
+          <i class="fa fa-quote-right" aria-hidden="true"></i>
+        </p>
+        <p class="kr hide commanders">
+          <i class="fa fa-quote-left" aria-hidden="true"></i> 통솔자형 사람은
+          천성적으로 타고난 리더입니다. 이 유형에 속하는 사람은 넘치는
+          카리스마와 자신감으로 공통의 목표 실현을 위해 다른 이들을 이끌고
+          진두지휘합니다. 이들은 진취적인 생각과 결정력, 그리고 냉철한
+          판단력으로 그들이 세운 목표 달성을 위해 가끔은 무모하리만치 이성적
+          사고를 하는 것이 특징입니다. 이들이 인구의 단 3%에 지나지 않는 것이
+          어쩌면 다행일 수도 있습니다. 그렇지 않으면 인구 대다수를 차지하는
+          소심하고 섬세한 성향의 사람들이 모두 주눅 들어 살지도 모르니까요. 단,
+          평소 잊고 살기는 하나 우리 삶을 윤택하게 해주는 위대한 사업가나 기관을
+          이끄는 통솔자형 사람들이 있음에 다행이기도 합니다.
+          <i class="fa fa-quote-right" aria-hidden="true"></i>
+        </p>
+
+        <p class="eng">
+          <em
+            >Note: I took
+            <a
+              href="https://www.16personalities.com/entj-personality"
+              target="_blank"
+              >this personalities test</a
+            >
+            four times since 2014 and have received the same result each
+            time.</em
+          >
+        </p>
+        <p class="kr hide">
+          <em
+            >참고: 저는
+            <a
+              href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-entj"
+              target="_blank"
+              >이 성격 유형 검사</a
+            >를 2014년 이후로 네 차례 실시했으며, 모두 동일한 결과를
+            얻었습니다.</em
+          >
+        </p>
+      </div>
+
+      <!-- Experience -->
+      <div class="about-profile from-sec">
+        <h4 class="eng about-title">Experience</h4>
+        <h4 class="kr hide about-title">경험</h4>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="row">
+            <div class="col-md-6 offset-md-4">
+              <ul class="eng timeline-job">
+                <li>
+                  <p>
+                    <a href="https://sentera.com/" target="_blank">Sentera</a>
+                    <br />Software Engineer <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    Saint Paul, MN <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >Oct 2021 - Present</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://www.smartthings.com/"
+                      >SmartThings</a
+                    >
+                    <br />Software Engineer Intern <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    Minneapolis, MN <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >May - Aug 2020</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://flywheel.io/">Flywheel</a>
+                    <br />Software Engineer Intern <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    Minneapolis, MN <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >Nov 2019 - May 2020</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://twin-cities.umn.edu/"
+                      >University of Minnesota</a
+                    >
+                    <br />Student Web Support <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    Minneapolis, MN <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >May - Dec 2019</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://childrenstorytime.co/"
+                      >Children Story Time</a
+                    >
+                    <br />Front End Developer Intern <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    Minneapolis, MN <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >Feb - Jun 2019</span
+                    >
+                  </p>
+                </li>
+              </ul>
+              <ul class="kr hide timeline-job">
+                <li>
+                  <p>
+                    <a href="https://sentera.com/" target="_blank">Sentera</a>
+                    <br />소프트웨어 엔지니어 <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    세인트 폴, 미네소타 <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >2021년 10월 - 현재</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://www.smartthings.com/"
+                      >SmartThings</a
+                    >
+                    <br />소프트웨어 엔지니어 인턴 <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    미네아폴리스, 미네소타 <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >2020년 5월 - 8월</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://flywheel.io/">Flywheel</a>
+                    <br />소프트웨어 엔지니어 인턴 <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    미네아폴리스, 미네소타 <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >2019년 11월 - 2020년 5월</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://twin-cities.umn.edu/"
+                      >University of Minnesota</a
+                    >
+                    <br />학생 웹 개발자 <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    미네아폴리스, 미네소타 <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >2019년 5월 - 12월</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a target="_blank" href="https://childrenstorytime.co/"
+                      >Children Story Time</a
+                    >
+                    <br />프론트 앤드 개발 인턴 <br /><i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                    미네아폴리스, 미네소타 <br /><span
+                      class="badge badge-secondary date-job"
+                      style="margin-bottom: 20px"
+                      >2019년 2월 - 6월</span
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="about-profile from-sec">
+        <h4 class="eng about-title">Education</h4>
+        <h4 class="kr hide about-title">학업</h4>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="row">
+            <div class="col-md-10 offset-md-3">
+              <div class="timeline p-3 block mb-10 mx-auto">
+                <div class="tl-item active">
+                  <div class="tl-dot b-warning"></div>
+                  <div class="tl-content eng">
+                    <span>University of Minnesota</span>
+                    <br /><a
+                      href="https://cse.umn.edu/college/computer-science"
+                      target="_blank"
+                      >Bachelor of Science in Computer Science</a
+                    >
+                    <div class="tl-date text-muted mt-1">
+                      Graduated Dec 2020
+                    </div>
+
+                    <div class="tl-info">
+                      <li>Operating Systems</li>
+                      <li>User Interface Design</li>
+                      <li>Program Design and Development</li>
+                      <li>Software Engineering I</li>
+                      <li>Internet Programming</li>
+                      <li>Practice of Database Systems</li>
+                      <li>Algorithms and Data Structures</li>
+                      <li>Advanced Programming Principles</li>
+                      <li>Introduction to Operating Systems</li>
+                      <li>Introduction to Artificial Intelligence</li>
+                      <li>Machine Architecture and Organization</li>
+                    </div>
+                  </div>
+                  <div class="tl-content kr hide">
+                    <span>미네소타 대학교</span>
+                    <br /><a
+                      href="https://cse.umn.edu/college/computer-science"
+                      target="_blank"
+                      >컴퓨터 사이언스, 이공계 학사</a
+                    >
+                    <div class="tl-date text-muted mt-1">2020년 12월 졸업</div>
+
+                    <div class="tl-info">
+                      <li>운영 체제 심화</li>
+                      <li>유저 인터페이스 설계</li>
+                      <li>프로그램 설계 및 개발</li>
+                      <li>소프트웨어 엔지니어링 I</li>
+                      <li>인터넷 프로그래밍</li>
+                      <li>데이터 베이스</li>
+                      <li>알고리즘과 데이터 구조</li>
+                      <li>고급 프로그래밍 원리</li>
+                      <li>운영 체제 이론</li>
+                      <li>인공 지능 소개</li>
+                      <li>기계 구조 및 조직</li>
+                    </div>
+                  </div>
+                </div>
+                <div class="tl-item">
+                  <div class="tl-dot b-danger"></div>
+                  <div class="tl-content">
+                    <div class="eng">
+                      <a
+                        href="https://www.udemy.com/course/modern-react-bootcamp/"
+                        target="_blank"
+                        >Udemy - The Modern React Bootcamp
+                      </a>
+                      <div class="tl-date text-muted mt-1">
+                        Completed Oct 2021
+                      </div>
+                    </div>
+
+                    <div class="kr hide">
+                      <a
+                        href="https://www.udemy.com/course/modern-react-bootcamp/"
+                        target="_blank"
+                        >유데미 - 리액트 부트캠프</a
+                      >
+                      <div class="tl-date text-muted mt-1">
+                        2021년 10월 이수
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tl-item">
+                  <div class="tl-dot b-danger"></div>
+                  <div class="tl-content">
+                    <div class="eng">
+                      <a
+                        href="https://www.udemy.com/course/the-web-developer-bootcamp/"
+                        target="_blank"
+                        >Udemy - The Web Developer Bootcamp</a
+                      >
+                      <div class="tl-date text-muted mt-1">
+                        Completed July 2019
+                      </div>
+                    </div>
+
+                    <div class="kr hide">
+                      <a
+                        href="https://www.udemy.com/course/the-web-developer-bootcamp/"
+                        target="_blank"
+                        >유데미 - 웹 개발 부트캠프</a
+                      >
+                      <div class="tl-date text-muted mt-1">2019년 7월 이수</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tl-item"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="about-profile from-sec">
+        <h4 class="eng about-title">Skills</h4>
+        <h4 class="kr hide about-title">스킬</h4>
+
+        <div class="skills row">
+          <div class="col-lg-4 col-sm-6 sub-section-skills">
+            <p>
+              <i class="fa fa-chrome" aria-hidden="true"></i>
+              <span class="bold eng"> Web</span>
+              <span class="bold kr hide"> 웹</span>
+              <br />React, Spring Boot, JavaScript, jQuery, Bootstrap, Php,
+              Node.JS
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 sub-section-skills">
+            <p>
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <span class="bold eng"> General</span>
+              <span class="bold kr hide">일반</span>
+              <br />Java, Groovy, Python, C, C++, Ocaml, MySQL
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 sub-section-skills">
+            <p>
+              <i class="fa fa-check-square" aria-hidden="true"></i>
+              <span class="bold eng"> Testing</span>
+              <span class="bold kr hide">테스팅</span>
+              <br />JaCoCo, JUnit, Mockito, Spock
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 tools sub-section-skills">
+            <p>
+              <i class="fa fa-wrench" aria-hidden="true"></i>
+              <span class="bold eng"> Programs</span>
+              <span class="bold kr hide">프로그램</span>
+              <br />Git, Jira, AWS, Docker, IntelliJ, Figma, Adobe Premiere Pro
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 sub-section-skills">
+            <p>
+              <i class="fa fa-desktop" aria-hidden="true"></i>
+              <span class="bold eng">Operating Systems</span>
+              <span class="bold kr hide">운영체제</span>
+              <br />Mac OS X, Windows, Linux
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 sub-section-skills">
+            <p>
+              <i class="fa fa-cube" aria-hidden="true"></i>
+              <span class="bold eng">Methodology</span>
+              <span class="bold kr hide">방법론</span>
+              <br />Agile/Scrum process
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interests -->
+      <div class="about-profile from-sec">
+        <h4 class="eng about-title">Interests</h4>
+        <h4 class="kr hide about-title">좋아하는것</h4>
+
+        <div class="interests-category">
+          <p>
+            <a href="books.html" style="text-decoration: none">📚</a>
+            <a
+              href="https://www.youtube.com/channel/UCkXvgmur7Infi6w-KoIhPWw?view_as=subscriber"
+              target="_blank"
+              style="text-decoration: none"
+              >🎥</a
+            >
+            <a href="tech.html" style="text-decoration: none">🍎</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="about-profile from-sec">
+        <h4 class="eng about-title">Testimonials</h4>
+        <h4 class="kr hide about-title">증명서</h4>
+
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <p class="eng" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              Jin was a pleasure to have on the team and shows great potential
+              to have an incredibly successful and fulfilling career. She was
+              thrown into a brand new project with tools she wasn’t familiar
+              with, in a language she hadn’t worked much in, all while
+              navigating what it’s like to work completely remote in a company
+              that's normally in an office. She's a great communicator, and is
+              willing to dive into the unknown and ask questions when needed.
+              She's also willing to step outside of her personal comfort zone in
+              order to learn outside of her daily work - setting up 1-1 time
+              with people around the company to learn about their careers. I
+              hope our paths cross again.
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p class="kr hide" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              현진은 믿을 수 없을 만큼 성공적이고 만족감 있는 커리어를 가질 수
+              있을 거라는 큰 잠재력을 보여주었으며 팀에 합류하게 된 것을 매우
+              기쁘게 생각합니다. 우리는 일반적으로 사무실에 출근하지만, (현재
+              펜데믹 상황으로 인해) 그녀는 완전한 재택근무의 형식을 취했으며
+              그것이 어떻게 이루어지는지 탐색하였습니다. 그리고 익숙하지 않은
+              프로그램과 한 번도 경험해보지 못한 개발 언어들을 사용해 완전히
+              새로운 프로젝트에 투입되었습니다. 그녀는 훌륭한 의사소통
+              능력자이면서 새로운 것을 배우는 데 주저함이 없으며 도움이 필요할
+              때는 질문을 마다하지 않습니다. 또한 그녀는 일상 업무가 아닌 다른
+              것들을 배우기 위해 기꺼이 자신의 편안함을 벗어나려 했습니다.
+              그녀는 회사 내 여러 사람에게 직접 다가가 일대일 면담을
+              제안하였으며, 그들의 배경과 경력들을 배우며 소통하였습니다. 저는
+              현진과 다시 함께 일하게 되기를 진심으로 바랍니다.
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p style="text-align: center">
+              <span class="bold">
+                <a href="https://www.linkedin.com/in/jtosberg/" target="_blank"
+                  >John Osberg</a
+                >
+              </span>
+              <br />
+              <span class="eng">Senior Software Engineer at SmartThings</span>
+              <span class="kr hide">선임 소프트웨어 엔지니어, SmartThings</span>
+            </p>
+          </div>
+          <div class="mySlides">
+            <p class="eng" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              I had the pleasure to work with Hyunjin during her 4 month
+              internship at SmartThings. As part of her internship project she
+              had the opportunity to experience many technologies for the first
+              the time - AWS, Java, Groovy, Kotlin, Spring Boot, Gradle, Docker,
+              and many others. Tackling so many new things at once can be a
+              daunting challenge for even a senior engineer. Hyunjin was up to
+              the challenge, and she pushed herself every day to learn more. At
+              the end of her internship she had completed a project that
+              successfully tied all of those technologies together. She brings a
+              positive attitude with her daily, and the team very much enjoyed
+              having her as part of the group. I would not hesitate to recommend
+              Hyunjin to any future employer looking for a junior engineer to
+              add to their team.
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p class="kr hide" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              저는 스마트싱스에서 4개월 동안 현진과 함께 일하게 되어 매우
+              기뻤습니다. 그녀는 인턴십 프로젝트의 일환으로, 새로운 기술들을
+              접할 기회가 있었습니다 - AWS, 자바, 그루비, 코틀린, 스프링 부트,
+              그레이들, 도커, 등등. 한 번에 많은 새로운 일들을 처리하는 것은
+              선임 엔지니어에게도 어려운 일이 될 수 있습니다. 하지만 현진은
+              도전에 나섰고, 더 많은 것을 배우기 위해 매일 노력 하였습니다.
+              인턴십이 끝날 무렵 그녀는 이 모든 기술을 성공적으로 연결해
+              프로젝트를 완성하였습니다. 또한, 그녀는 매일 긍정적인 태도를
+              가지고 왔으며 우리는 그녀가 팀의 일원이었다는 사실에 매우
+              기뻤습니다. 혹시 주니어 엔지니어를 찾고 있는 팀이 있다면, 나는
+              현진을 추천하는 것을 주저하지 않겠습니다.
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p style="text-align: center">
+              <span class="bold">
+                <a
+                  href="https://www.linkedin.com/in/jeffreyblaisdell/"
+                  target="_blank"
+                  >Jeff Blaisdell</a
+                >
+              </span>
+              <br />
+              <span class="eng">Engineering Manager at SmartThings</span>
+              <span class="kr hide">엔지니어링 매니저, SmartThings</span>
+            </p>
+          </div>
+
+          <div class="mySlides">
+            <p class="eng" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              It has been my great pleasure to work and interact with Hyunjin. I
+              have rarely encountered a person who can bring such an inquisitive
+              spirit to their work and such a thorough, rigorous investigation
+              to every component of a project, no matter how banal. Such
+              commitment and enthusiasm for the details that make the difference
+              is exceedingly hard to find in people. What I also found very
+              delightful, even inspiring, about working with Hyunjin was her
+              passion and curiosity for life, but particularly with regard to
+              technology and its role in society. Her high level of interest in
+              computer science is obvious, but it's not just an interest in
+              technology for its own sake; rather, I had the distinct impression
+              that the vision she holds for her future role in developing
+              technology embraces a much wider range of function and
+              responsibility to the world, and that this is critically important
+              to her. Apart from these standout qualities, I found that Hyunjin
+              possessed extraordinary organizational skills along with the
+              ability to go directly at any task; she would take great pride
+              just in the efficacy of completing them. Her presence in our
+              research group was, in itself, a force to keep things on track. As
+              we often had to deal with a huge set of problem-solving issues,
+              both large and small, her ability to focus and stay organized
+              often helped my own efforts to keep on top of everything needing
+              attention. If you'll be lucky enough to have the opportunity to
+              work with Hyunjin, I can promise that it won't be long before your
+              organization recognizes what a resource it has in this person.
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p class="kr hide" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              저는 현진과 일하고 소통하는 것이 정말 기뻤습니다. 그녀는 엄청난
+              호기심을 업무에 가져오고 아무리 평범한 프로젝트라도 모든 구성
+              요소에 대해 철저하고 엄격하게 연구하는 사람입니다. 저는 이런
+              사람을 거의 만나지 못했습니다. 차이를 만드는 세부 사항에 대한
+              그러한 헌신과 열정은 사람들 사이에서 찾아보기 매우 어렵습니다.
+              현진과 함께 일하는 것에 대해 제가 매우 기쁘고 영감을 얻은 것은
+              그녀의 삶에 대한 열정과 호기심, 특히 기술과 사회에서의 역할에 관한
+              것입니다. 컴퓨터 과학에 대한 그녀의 높은 관심은 명백하지만, 기술
+              자체에 대한 관심만은 아닙니다. 그녀는 기술 발전에 있어서 확실한
+              미래 비전을 품고 있습니다. 그것은 전 세계에 훨씬 더 넓은 범위의
+              기능과 책임을 포함하고 있으며 나는 이 목표가 그녀에게 매우
+              중요하다는 뚜렷한 인상을 받았습니다. 이러한 뛰어난 자질 외에도,
+              현진은 어떠한 직무든지 수행할 수 있는 능력과 함께 비범한 조직
+              기술을 보유하고 있음을 발견했습니다. 그녀는 그것들을 완성하는
+              효능에 큰 자부심을 가질 것입니다. 우리 팀에서 그녀의 존재는 그
+              자체로 일을 추적하는 힘이었습니다. 우리는 종종 크고 작은 거대한
+              문제 해결 과제를 다루어야 했습니다. 그리고 그녀의 집중적이며
+              체계적인 자세를 유지하는 능력은 주의가 필요한 모든 것을 최상위로
+              유지하려는데 도움이 되었습니다. 만약 당신에게 행운이 생겨 현진과
+              함께 일할 기회가 생긴다면, 당신의 조직이 그녀에게 어떤 자원이
+              있는지 인식하기까지는 오래 걸리지 않을 것이라고 확신 할 수
+              있습니다.
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p style="text-align: center">
+              <span class="bold">
+                <a
+                  href="https://www.linkedin.com/in/steven-pliam-633b2b2b/"
+                  target="_blank"
+                  >Steven Pliam</a
+                >
+              </span>
+              <br />
+              <span class="eng"
+                >Head Software Engineer at the University of Minnesota</span
+              >
+              <span class="kr hide"
+                >소프트웨어 엔지니어 책임자, 미네소타 대학교</span
+              >
+            </p>
+          </div>
+
+          <div class="mySlides">
+            <p class="eng" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              I have been a mentor for Hyunjin since 2018 through the U of
+              Minnesota mentoring program. There are many things about her that
+              have made this relationship very rewarding. She is intellectually
+              curious. As an international student, she loves to learn and
+              immerse herself in the American culture. And as a computer science
+              student, she is interested in the different technologies and she
+              constantly applies the new acquired skills on her personal
+              projects. Hyunjin is a very motivated individual. She works hard
+              in school and is always looking for internship/volunteer
+              opportunities to expand her experience. Accountable - this is the
+              one of the things that sets Hyunjin apart. During our bi-weekly
+              meetings, we always put together a list of action items (e.g.
+              reading assignments, resume building, personal site, etc) for the
+              next meeting, and Hyunjin always completes the items on time. It
+              has been a pleasure to work with such a quality person like
+              Hyunjin!
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p class="kr hide" style="font-style: italic">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              저는 2018년부터 미네소타 대학교 멘토링 프로그램을 통해 현진의
+              멘토였습니다. 우리의 관계를 매우 보람있게 만든 그녀에 관한 많은
+              것들이 있습니다. 먼저, 그녀는 지적으로 호기심이 많습니다. 그녀는
+              국제 학생으로서 미국 문화를 배우고 몰입하는 것을 좋아합니다. 또한
+              컴퓨터 사이언스 학생으로서 다양한 기술에 관심이 많으며 새로 얻은
+              기술을 개인 프로젝트를 통해 지속적으로 적용합니다. 현진은 매우
+              동기 부여된 사람입니다. 그녀는 학교에서 열심히 공부하며 항상
+              경험을 넓힐 수 있는 인턴십 / 자원봉사 기회를 찾고 있습니다.
+              마지막으로 책임감, 이것은 현진을 차별화시키는 것 중 하나입니다.
+              격주 회의에서 우리는 항상 다음 회의를 위해 과제 (예 : 독서 과제,
+              이력서 작성, 개인 사이트 등) 목록을 작성하고 그녀는 항상 제시간에
+              항목을 완성합니다. 나는 현진과 같은 훌륭한 사람과 함께 일하게 되어
+              매우 기뻤습니다!
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p>
+            <p style="text-align: center">
+              <span class="bold">
+                <a
+                  href="https://www.linkedin.com/in/ming-tan-46766a/"
+                  target="_blank"
+                  >Ming Tan</a
+                >
+              </span>
+              <br />
+              <span class="eng">Director of IT at CaringBridge</span>
+              <span class="kr hide">IT 디렉터, CaringBridge</span>
+            </p>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <script src="js/testimonials.js"></script>
+      </div>
+    </div>
+
+    <hr />
+
+    <footer>
+      <p>© Hyunjin Jae, 2019</p>
+      <div class="footer-sns">
+        <a href="mailto:hyunjineeey@gmail.com" target="_blank"
+          ><i class="fa fa-envelope foot-sns" ria-hidden="true"></i
+        ></a>
+        <a href="https://github.com/hyunjineeey" target="_blank"
+          ><i class="fa fa-github foot-sns" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/hyunjineeey/" target="_blank"
+          ><i class="fa fa-linkedin-square foot-sns" aria-hidden="true"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCkXvgmur7Infi6w-KoIhPWw?view_as=subscriber"
+          target="_blank"
+          ><i class="fa fa-youtube-play foot-sns" aria-hidden="true"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
