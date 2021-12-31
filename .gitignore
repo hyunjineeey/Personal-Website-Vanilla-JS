@@ -1,0 +1,31 @@
+# **/.gitignore
+**/.DS_Store
+*.log
+*.json
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Folders
+img/
+cookie/
+.idea/
+css/*
+
+# Files
+blog/ai.html
+blog/quarantine.html
+
+survey.html
+
+# Only except style.css
+!css/style.css
+
+# command
+# git rm -r --cached .
